@@ -8,6 +8,6 @@ class Transaction:
     }
 
     def __init__(self, type, share, date):
-        self.__type = type
-        self.__share = share
-        self.__date = date
+        self._type = type
+        self._share = share
+        self._date = date
