@@ -1,6 +1,6 @@
 class Share:
 
     def __init__(self, symbol_name, quantity):
-        self.__symbol_name = symbol_name
-        self.__quantity = quantity
-        self.__price = 0
+        self._symbol_name = symbol_name
+        self._quantity = quantity
+        self._price = 0
